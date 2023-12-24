@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    color: brown;
+    background: wheat;  
+    text-shadow: 1px 1px white;
+    background-size: cover;
+}
+
+#board {
+    height: 600px;
+    width: 600px;
+    background: url(./CAPY/soil.png);
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px outset orange;
+    border-radius: 2cm;
+}
+
+#board div {
+    width: 200px;
+    height: 123px;
+    background-image: url(../../Downloads/vecteezy_bush-green-bush-png_11992768.png);
+    background-size: cover;
+    margin-top: 60px;
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
