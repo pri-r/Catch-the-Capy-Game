@@ -49,7 +49,7 @@ function setCapy () {
     }
 
     let capy = document.createElement("img"); 
-    capy.src = "../../Downloads/capybara.png";
+    capy.src = "./CAPY/capybara.png";
 
     let number = getRandom();
     if (currRacoonTile && currRacoonTile.id == number) {
