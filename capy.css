@@ -22,7 +22,7 @@ body {
 #board div {
     width: 200px;
     height: 123px;
-    background-image: url(../../Downloads/vecteezy_bush-green-bush-png_11992768.png);
+    background-image: url(./CAPY/vecteezy_bush-green-bush-png_11992768.png);
     background-size: cover;
     margin-top: 60px;
 }
